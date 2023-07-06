@@ -1,0 +1,17 @@
+E:\VirtualStoreBlazor\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+E:\VirtualStoreBlazor\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+E:\VirtualStoreBlazor\DataAccess\bin\Debug\net6.0\DataAccess.dll
+E:\VirtualStoreBlazor\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+E:\VirtualStoreBlazor\DataAccess\bin\Debug\net6.0\Entities.dll
+E:\VirtualStoreBlazor\DataAccess\bin\Debug\net6.0\Entities.pdb
+E:\VirtualStoreBlazor\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+E:\VirtualStoreBlazor\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\VirtualStoreBlazor\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+E:\VirtualStoreBlazor\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+E:\VirtualStoreBlazor\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+E:\VirtualStoreBlazor\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+E:\VirtualStoreBlazor\DataAccess\obj\Debug\net6.0\DataAccess.dll
+E:\VirtualStoreBlazor\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+E:\VirtualStoreBlazor\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+E:\VirtualStoreBlazor\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
+E:\VirtualStoreBlazor\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll

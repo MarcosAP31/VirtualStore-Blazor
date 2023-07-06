@@ -1,0 +1,12 @@
+E:\VirtualStoreBlazor\Entities\bin\Debug\net6.0\Entities.deps.json
+E:\VirtualStoreBlazor\Entities\bin\Debug\net6.0\Entities.dll
+E:\VirtualStoreBlazor\Entities\bin\Debug\net6.0\Entities.pdb
+E:\VirtualStoreBlazor\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
+E:\VirtualStoreBlazor\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+E:\VirtualStoreBlazor\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
+E:\VirtualStoreBlazor\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
+E:\VirtualStoreBlazor\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
+E:\VirtualStoreBlazor\Entities\obj\Debug\net6.0\Entities.dll
+E:\VirtualStoreBlazor\Entities\obj\Debug\net6.0\refint\Entities.dll
+E:\VirtualStoreBlazor\Entities\obj\Debug\net6.0\Entities.pdb
+E:\VirtualStoreBlazor\Entities\obj\Debug\net6.0\ref\Entities.dll

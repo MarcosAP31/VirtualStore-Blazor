@@ -1,0 +1,17 @@
+E:\VirtualStoreBlazor\Business\bin\Debug\net6.0\Business.deps.json
+E:\VirtualStoreBlazor\Business\bin\Debug\net6.0\Business.dll
+E:\VirtualStoreBlazor\Business\bin\Debug\net6.0\Business.pdb
+E:\VirtualStoreBlazor\Business\obj\Debug\net6.0\Business.csproj.AssemblyReference.cache
+E:\VirtualStoreBlazor\Business\obj\Debug\net6.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+E:\VirtualStoreBlazor\Business\obj\Debug\net6.0\Business.AssemblyInfoInputs.cache
+E:\VirtualStoreBlazor\Business\obj\Debug\net6.0\Business.AssemblyInfo.cs
+E:\VirtualStoreBlazor\Business\obj\Debug\net6.0\Business.csproj.CoreCompileInputs.cache
+E:\VirtualStoreBlazor\Business\obj\Debug\net6.0\Business.dll
+E:\VirtualStoreBlazor\Business\obj\Debug\net6.0\refint\Business.dll
+E:\VirtualStoreBlazor\Business\obj\Debug\net6.0\Business.pdb
+E:\VirtualStoreBlazor\Business\obj\Debug\net6.0\ref\Business.dll
+E:\VirtualStoreBlazor\Business\bin\Debug\net6.0\DataAccess.dll
+E:\VirtualStoreBlazor\Business\bin\Debug\net6.0\Entities.dll
+E:\VirtualStoreBlazor\Business\bin\Debug\net6.0\DataAccess.pdb
+E:\VirtualStoreBlazor\Business\bin\Debug\net6.0\Entities.pdb
+E:\VirtualStoreBlazor\Business\obj\Debug\net6.0\Business.csproj.CopyComplete

@@ -1,0 +1,111 @@
+﻿@using Entities
+@using Business
+@inject NavigationManager NavManager
+<div class="modal fade show" id="myModal" style="display:block; background-color: rgba(10,10,10,.8);" aria-modal="true" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title"><i class="fa fa-list"></i> Editar Cliente</h6>
+                <button type="button" style="border:1px solid #d0d4d9;" class="close" @onclick="@ModalCancel">&times;</button>
+            </div>
+            <div class="modal-body">
+                <EditForm Model="oClientUpd">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">Nombre:</span>
+                                <InputText @bind-Value="oClientUpd.Name" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">Apellido:</span>
+                                <InputText @bind-Value="oClientUpd.LastName" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">Fecha de nacimiento:</span>
+                                <InputDate @bind-Value="oClientUpd.Birthday" class="form-control"/>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">Sexo:</span>
+                                <InputSelect @bind-Value="oClientUpd.Sex" class="form-control">
+                                    <option>Seleccione el sexo</option>
+                                    <option value="Masculino">Masculino</option>
+                                    <option value="Femenino">Femenino</option>
+                                </InputSelect>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">Departamento:</span>
+                                <InputText @bind-Value="oClientUpd.Department" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">Provincia:</span>
+                                <InputText @bind-Value="oClientUpd.Province" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">Distrito:</span>
+                                <InputText @bind-Value="oClientUpd.District" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">Dirección:</span>
+                                <InputText @bind-Value="oClientUpd.Direction" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+                </EditForm>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" @onclick="@ModalOk"><i class="fa fa-save"></i>Editar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public int clientid { get; set; }
+    Client oClientUpd = new Client();
+
+    protected override async Task OnInitializedAsync()
+    {
+        oClientUpd = B_Client.ClientById(clientid);
+        
+
+    }
+    private void UpdateClient()
+    {
+        B_Client.UpdateClient(oClientUpd);
+        NavManager.NavigateTo("client/list");
+    }
+    private void DeleteClient()
+    {
+        B_Client.DeleteClient(oClientUpd);
+        NavManager.NavigateTo("client/list");
+    }
+
+    [Parameter]
+    public EventCallback<bool> OnClose { get; set; }
+
+    private Task ModalCancel()
+    {
+        return OnClose.InvokeAsync(false);
+    }
+    private Task ModalOk()
+    {
+        B_Client.UpdateClient(oClientUpd);
+        return OnClose.InvokeAsync(true);
+    }
+}
+
